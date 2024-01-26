@@ -195,3 +195,43 @@ p{
     border: 1px solid  #77777769;
     box-shadow: #000000;
 }
+.services{
+    background-image: url(./images/img-serv-sec.webp);
+    background-color: #6C53EB;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10rem;
+    color: white;
+
+}
+.services>p{
+    color: white;
+}
+.services>h2{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 5rem;
+}
+.ser-handle{
+    display: flex;
+    padding: 10rem;
+    gap: 2rem;
+}
+.sr{
+    background-color: #c2bdbd94;
+    border: 1px solid #77777769 ;
+    border-radius: 10px;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+   padding: 2rem;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.74);
+}
+.sr>p{
+    color: rgba(255, 255, 255, 0.767);
+}
